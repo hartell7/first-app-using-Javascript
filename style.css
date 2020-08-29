@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.header1 {
+    text-align: center;
+}
+
+.footer1 {
+    text-align: center;
+    color: chartreuse;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}

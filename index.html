@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript task app</title>
+<!--bootstrap 4 library-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <!--css custom-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="display-1 header1" style="font-family: cursive; color: blueviolet;">Hallo Leute</h1>
+
+    <!--navbar-->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Tasks App</a>
+        </div>
+    </nav>
+
+    <!--main content-->
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-4">
+
+          <div class="card" style="background: indigo;">
+            <div class="card-body">
+              <!--formTask-->
+              <form id="formTask">
+                <div class="form-group">
+                  <input type="text" id="title" placeholder="add a to-do" class="form-control">
+                </div>
+                <!--end first input-->
+                <div class="form-group">
+                  <textarea id="description"cols="30" rows="10" class="form-control" placeholder="add description"></textarea>
+                </div>
+                  <button type="submit" class="btn btn-secondary btn-block">Save</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div id="tasks"></div>
+        </div>
+      </div>
+    </div>
+
+<div class="bg-primary footer1">
+  <p>Rights reserved</p>
+</div>
+    <!--scripts-->
+    <script src="app.js"></script>
+</body>
+</html>
